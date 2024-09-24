@@ -1,16 +1,26 @@
 /**
- * Place your custom CSS styles here.
+  Docs https://source.unsplash.com/
+  Other options:
+  https://unsplash.com/collections/158642/nature
+  https://unsplash.com/collections/514990/architecture
  **/
 
-/* aRu is standard gmail settings with primary, social, promotions, updates, forums tabs */ 
-.aRu {
-  background-image: url("https://source.unsplash.com/collection/388793/2800x1400/daily") !important;
+/* aRu is standard gmail settings with primary, social, promotions, updates, forums tabs */
+.aRu,
+/* On simplify gmail */
+.Nr.UI.S2.vy,
+/* Gmail with all categories disabled (Settings > Inbox > Categories), or important first, or unread first, or starred first */
+.UI > div > table > tbody > tr:first-child.TD > td.TC {
+  background-image: url("https://picsum.photos/2800/1400") !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
   max-width: initial !important;
-  height: 700px !important;
+  /* subtract the top bar and bottom bar height from the total height */
+  height: calc(100vh - 420px) !important;
   background-position: 50% 50%;
   background-size: cover !important;
+  /* Hide the no emails text without hiding the DOM node */
+  color: transparent;
 }
 
 .aRu p,
@@ -18,17 +28,3 @@
   /* Hide the no emails text */
   display: none !important;
 }
-
-/* Gmail with all categories disabled (Settings > Inbox > Categories), or important first, or unread first, or starred first */
-.UI > div > table > tbody > tr:first-child.TD > td.TC {
-  background-image: url("https://source.unsplash.com/collection/388793/2800x1400/daily") !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  max-width: initial !important;
-  height: 700px !important;
-  background-position: 50% 50%;
-  background-size: cover !important;
-  /* Hide the no emails text without hiding the DOM node */
-  color: transparent;
-}
-
