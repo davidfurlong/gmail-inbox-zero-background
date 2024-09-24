@@ -7,8 +7,6 @@
 
 /* aRu is standard gmail settings with primary, social, promotions, updates, forums tabs */
 .aRu,
-/* On simplify gmail */
-.Nr.UI.S2.vy,
 /* Gmail with all categories disabled (Settings > Inbox > Categories), or important first, or unread first, or starred first */
 .UI > div > table > tbody > tr:first-child.TD > td.TC {
   background-image: url("https://picsum.photos/2800/1400") !important;

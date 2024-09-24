@@ -1,6 +1,6 @@
 {
   "name": "Gmail inbox zero background",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "manifest_version": 3,
   "description": "Makes your inbox zero pretty with a new beautiful image from unsplash every day. Open source + Privacy preserving",
   "homepage_url": "https://www.davidfurlong.me",
